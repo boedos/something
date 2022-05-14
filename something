@@ -1,12 +1,13 @@
-program n-1;
-var a, b, P, S;
+program n;
+  var a,b,P,S : real;
 begin
-writeln('Вычисление периметра и площади прямоугольника');
-write('Введите a>>');
-write('Введите b>>');
-P:=2*(a+b);
-S:=a*b;
-writeln('P=', P:3:1);
-writeln('S=', S:3:1)
+  writeln('Вычисление площади и периметра прямоугольника.');
+  write('Длина стороны а ==');
+  readln(a);
+  write('Длина стороны b ==');
+  readln(b); 
+  P:= 2*a+2*b;
+  S:= a*b;
+  writeln('P=', P:3:1);
+  writeln('S=', S:3:1)
 end.
-
