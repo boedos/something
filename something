@@ -1,0 +1,11 @@
+program n-1;
+var a, b, P, S;
+begin
+writeln('Вычисление периметра и площади прямоугольника');
+write('Введите a>>');
+write('Введите b>>');
+P:=2*(a+b);
+S:=a*b;
+writeln('P=', P:3:1);
+writeln('S=', S:3:1)
+end.
